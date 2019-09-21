@@ -7,7 +7,6 @@
 //
 
 import Moya
-import enum Result.Result
 
 public protocol ARCHAuthObserverMoyaPluginDelegate: class {
     func didExpiredAuthToken()

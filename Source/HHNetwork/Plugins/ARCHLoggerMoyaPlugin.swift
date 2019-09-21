@@ -5,7 +5,6 @@
 
 import Foundation
 import Moya
-import enum Result.Result
 
 public final class ARCHLoggerMoyaPlugin: PluginType {
 

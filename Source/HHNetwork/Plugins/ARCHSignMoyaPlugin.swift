@@ -5,7 +5,6 @@
 
 import Foundation
 import Moya
-import enum Result.Result
 
 public protocol ARCHSignMoyaPluginDelegate: class {
     var signHeaderFields: [String: String] { get }

@@ -261,11 +261,9 @@
 		50C985B8212AF04D0002EF4B /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089230720FB77520032985E /* DeepDiff.framework */; };
 		50C985B9212AF04D0002EF4B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D264812122D1E300E3B47A /* KeychainAccess.framework */; };
 		50C985BA212AF04D0002EF4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D02121748400D77262 /* Moya.framework */; };
-		50C985BB212AF04D0002EF4B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D12121748400D77262 /* Result.framework */; };
 		50C985BC212AF0C00002EF4B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D22121748400D77262 /* Alamofire.framework */; };
 		50C985BD212AF0C00002EF4B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D264812122D1E300E3B47A /* KeychainAccess.framework */; };
 		50C985BE212AF0C00002EF4B /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D02121748400D77262 /* Moya.framework */; };
-		50C985BF212AF0C00002EF4B /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50BC80D12121748400D77262 /* Result.framework */; };
 		50C985C0212AF0D20002EF4B /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089230720FB77520032985E /* DeepDiff.framework */; };
 		50C985C1212AF5620002EF4B /* SimpleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506797A1212572AE0034CDA2 /* SimpleEntity.swift */; };
 		50CC5313214665BD008EF24A /* SkeletonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC531021466479008EF24A /* SkeletonData.swift */; };
@@ -906,7 +904,6 @@
 		50AB16FF21C148400058F3B0 /* ARCHSectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHSectionTableViewController.swift; sourceTree = "<group>"; };
 		50B89519214BF00900242372 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		50BC80D02121748400D77262 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
-		50BC80D12121748400D77262 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 		50BC80D22121748400D77262 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		50BC80D62121757000D77262 /* ARCHNetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHNetworkError.swift; sourceTree = "<group>"; };
 		50BC80D82121765900D77262 /* ARCHApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHApiResponse.swift; sourceTree = "<group>"; };
@@ -1076,7 +1073,6 @@
 				50C985BC212AF0C00002EF4B /* Alamofire.framework in Frameworks */,
 				50C985BD212AF0C00002EF4B /* KeychainAccess.framework in Frameworks */,
 				50C985BE212AF0C00002EF4B /* Moya.framework in Frameworks */,
-				50C985BF212AF0C00002EF4B /* Result.framework in Frameworks */,
 				507ABCC121257C64003DBDD7 /* HHModule.framework in Frameworks */,
 				507ABCE721257E34003DBDD7 /* HHNetwork.framework in Frameworks */,
 			);
@@ -1125,7 +1121,6 @@
 				50C985B8212AF04D0002EF4B /* DeepDiff.framework in Frameworks */,
 				50C985B9212AF04D0002EF4B /* KeychainAccess.framework in Frameworks */,
 				50C985BA212AF04D0002EF4B /* Moya.framework in Frameworks */,
-				50C985BB212AF04D0002EF4B /* Result.framework in Frameworks */,
 				50C98592212AEBFF0002EF4B /* HHModule.framework in Frameworks */,
 				50C985AC212AECDA0002EF4B /* HHPagingManager.framework in Frameworks */,
 				50C985A8212AECDA0002EF4B /* HHNetwork.framework in Frameworks */,
@@ -1463,7 +1458,6 @@
 				50D264812122D1E300E3B47A /* KeychainAccess.framework */,
 				50BC80D22121748400D77262 /* Alamofire.framework */,
 				50BC80D02121748400D77262 /* Moya.framework */,
-				50BC80D12121748400D77262 /* Result.framework */,
 				5032B7F621186C4D00271A1D /* UIKit.framework */,
 				5032B7F421186C4600271A1D /* Foundation.framework */,
 				5089230720FB77520032985E /* DeepDiff.framework */,

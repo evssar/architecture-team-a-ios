@@ -7,7 +7,6 @@
 //
 
 import Moya
-import enum Result.Result
 
 open class ARCHMoyaProvider<T: ARCHTargetType>: MoyaProvider<T>, ARCHUserStorageDelegate {
 
