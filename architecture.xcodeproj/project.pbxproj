@@ -345,6 +345,7 @@
 		9CF48BB32167A73B0040AE49 /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF48BAC2167A73A0040AE49 /* UIEdgeInsets.swift */; };
 		9CF48BB42167A73B0040AE49 /* UITraitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF48BAD2167A73B0040AE49 /* UITraitCollection.swift */; };
 		9CF7224A2147BB0500DE0915 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF722492147BB0500DE0915 /* ChildView.swift */; };
+		CE86D11F23376CDA00C07A81 /* DeepDiff.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089230720FB77520032985E /* DeepDiff.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1002,6 +1003,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE86D11F23376CDA00C07A81 /* DeepDiff.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3405,6 +3407,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HHList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -3435,6 +3441,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HHList/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

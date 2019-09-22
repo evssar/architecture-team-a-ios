@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import DeepDiff
 
 // swiftlint:disable:next line_length
-open class ARCHCollectionViewController<D: Hashable, VM: ARCHCellViewModel & ARCHModelInitilizable, C: UICollectionViewCell & ARCHCell>: NSObject {
+open class ARCHCollectionViewController<D: DiffAware, VM: ARCHCellViewModel & ARCHModelInitilizable, C: UICollectionViewCell & ARCHCell>: NSObject {
 
     public let viewDataSource: ARCHCollectionViewDataSource
     public let dataAdapter: ARCHEmptyListDataAdapter<D, VM>

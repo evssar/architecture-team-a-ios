@@ -10,7 +10,7 @@ import HHList
 import DeepDiff
 
 // swiftlint:disable:next line_length
-public class ARCHDiffCollectionViewController<D: Hashable, VM: ARCHCellViewModel & ARCHModelInitilizable, C: UICollectionViewCell & ARCHCell>: ARCHCollectionViewController<D, VM, C> {
+public class ARCHDiffCollectionViewController<D: DiffAware, VM: ARCHCellViewModel & ARCHModelInitilizable, C: UICollectionViewCell & ARCHCell>: ARCHCollectionViewController<D, VM, C> {
 
     // MARK: - Data
 
