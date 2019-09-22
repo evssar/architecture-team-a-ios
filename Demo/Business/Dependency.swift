@@ -53,11 +53,13 @@ class Dependency {
 
     private var activityMoyaPlugin: PluginType {
         return NetworkActivityPlugin(networkActivityClosure: { activityChangeType, _ in
-            switch activityChangeType {
-            case .began:
-                self.application.isNetworkActivityIndicatorVisible = true
-            case .ended:
-                self.application.isNetworkActivityIndicatorVisible = false
+            DispatchQueue.main.async {
+                switch activityChangeType {
+                case .began:
+                    self.application.isNetworkActivityIndicatorVisible = true
+                case .ended:
+                    self.application.isNetworkActivityIndicatorVisible = false
+                }
             }
         })
     }
